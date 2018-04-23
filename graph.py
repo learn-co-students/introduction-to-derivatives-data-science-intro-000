@@ -31,6 +31,9 @@ def m_b_data(m, b, x_values):
 # def error_lines(regression_line, points):
 #     return list(map(lambda point: error_line(regression_line, point), points))
 
+def plot_figure(figure):
+    plotly.offline.iplot(figure)
+
 def plot(traces, layout = {}):
     if not isinstance(traces, list): raise TypeError('first argument must be a list.  Instead is', traces)
     plotly.offline.iplot({'data': traces, 'layout': layout})
@@ -111,10 +114,10 @@ def make_subplots(one_one_traces = [], one_two_traces = [], two_one_traces = [],
     for trace in one_two_traces:
         fig.append_trace(trace, 1, 2)
     for trace in two_one_traces:
-        fig.append_trace(scatter_trace, 1, 1)
+        fig.append_trace(trace, 1, 1)
     for trace in two_two_traces:
         fig.append_trace(trace, 1, 2)
-    iplot(fig)
+    return fig
 
 # next to build out is a cost function table
 # https://plot.ly/python/table/
