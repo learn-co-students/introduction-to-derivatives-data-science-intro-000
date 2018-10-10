@@ -68,7 +68,7 @@ def derivative_at(original_function, x, delta = .01):
     slope = numerator/delta
     return {'value': x, 'slope': slope}
 
-def m_b_trace(m, b, x_values, mode = 'line', name = 'line function'):
+def m_b_trace(m, b, x_values, mode = 'lines', name = 'line function'):
     values = m_b_data(m, b, x_values)
     values.update({'mode': mode, 'name': name})
     return values
