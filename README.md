@@ -3,8 +3,8 @@
 
 ### Learning objectives
 
-* Understand that derivatives are the instantaneous rate of change of a function
-* Understand how to calculate a derivative of a straight line
+- Understand that derivatives are the instantaneous rate of change of a function
+- Understand how to calculate a derivative of a straight line
 
 ### Introduction
 
