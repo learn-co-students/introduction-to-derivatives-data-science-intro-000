@@ -48,7 +48,7 @@ To calculate the miles per hour we can see where a person is at a given time, th
 
 In the below graph, we begin to calculate the speed at hour number one.
 
-![](./deltaxdeltay.png)
+![](./deltaxdeltay_new.png)
 
 We calculate our jogger's speed by seeing were he starts at hour one and ends at hour two.  Our jogger went from mile numbers three to six -- indicated by the orange line, so miles per hour is:
 
@@ -77,7 +77,7 @@ Derivatives are a specific kind of rate of change -- the rate of change of a fun
 
 Since our jogger is running at a constant rate, our calculated rate of change of 3 miles per hour is also the derivative.  Of course, we know that in math we express our functions as $f(x)$.  Let's do that here.
 
-![](./fxderivative.png)
+![](./fxderivative_new.png)
 
 If we are given a function $f(x)$, we say the derivative of that function is $f'(x)$ -- read f primed of x. 
 
